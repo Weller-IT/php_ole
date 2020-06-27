@@ -51,6 +51,8 @@ function save($sFile, $bNoAs=false, $rhInfo=false) {
 #0.Initial Setting for saving
   if (!$rhInfo) {
     $rhInfo=new \stdClass();
+    $rhInfo->_BIG_BLOCK_SIZE=null;
+    $rhInfo->_SMALL_BLOCK_SIZE=null;
   }
 
   $rhInfo->_BIG_BLOCK_SIZE=pow(2, (($rhInfo->_BIG_BLOCK_SIZE) ?

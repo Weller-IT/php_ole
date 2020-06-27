@@ -38,6 +38,7 @@ class ole_pps {
     var $Size;
     var $Data;
     var $Child;
+    var $_PPS_FILE;
 
 #------------------------------------------------------------------------------
 # new (OLE::Storage_Lite::PPS)
@@ -119,6 +120,7 @@ function ole_pps($iNo, $sNm, $iType, $iPrev, $iNext, $iDir,
     #------------------------------------------------------------------------------
     function _makeSmallData(&$aList, $rhInfo) {
         //my ($sRes);
+        $sRes = "";
         $FILE = $rhInfo->_FILEH_;
         $iSmBlk = 0;
 

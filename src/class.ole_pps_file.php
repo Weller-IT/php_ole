@@ -62,7 +62,7 @@ class ole_pps_file extends ole_pps {
     }
 
     function append ($sData) {
-        if ($this->_PPS_FILE) {
+        if (isset($this->_PPS_FILE)) {
             fputs($this->_PPS_FILE, $sData);
         } else {
             $this->Data.=$sData;
