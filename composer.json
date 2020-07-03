@@ -1,13 +1,13 @@
 {
-    "name": "thoroc/php_ole",
+    "name": "weller-it/php_ole",
     "type": "library",
     "description": "",
     "keywords": ["excel", "spreadsheet", "document", "xls", "writer"],
-    "homepage": "https://github.com/thoroc/php_ole",
+    "homepage": "https://github.com/Weller-IT/php_ole",
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/thoroc/php_ole.git"
+            "url": "https://github.com/Weller-IT/php_ole.git"
         }
     ],
     "license": "LGPL v2.1",
